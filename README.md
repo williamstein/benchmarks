@@ -33,7 +33,7 @@ The workflow parameters are:
 The test notebooks to execute; the available test notebooks are: ["codeNotebook", "mdNotebook", "largePlotly", "longOutput", "manyPlotly", "manyOutputs", "errorOutputs"]
 - Test files size [default: 100]: tests notebooks are parametrized with an integer that is proportional to their size. 
 
-> You need to remember that a GitHub job is limited to 6hours. This means you may need to either reduce the number of samples (be careful) or the list of test notebooks to fit that time span.
+> You need to remember that a GitHub job is limited to 6 hours. This means you may need to either reduce the number of samples (be careful) or the list of test notebooks to fit that time span.
 
 ## License and notice
 
